@@ -1,9 +1,31 @@
-# React + Vite
+# React aplicación de Visualizacion de datos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta es una aplicación sencilla de Visualizacion de datos que te permite ver datos estadisticos de un determinado conjunto de datos. Puede cambiar el tipo de grafico, cambiar la informacion mostrada,seleccionar la informacion mes a mes
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# vite
+
+## Características
+
+- Elegir tipo de informacion a ver
+- Elegir tipo de grafico a mostrar
+- Seleccionar mes segun los datos
+
+## Instalación
+
+Para comenzar con este proyecto, siga estos pasos:
+
+1. Clona este repositorio en tu máquina local usando git clone
+2. Navegue al directorio del proyecto usando cd vite
+3. Instale las dependencias necesarias usando npm install
+4. Inicie el servidor de desarrollo usando npm run dev (porque uso vite reaccionar)
+
+La aplicación ahora debería estar ejecutándose en localhost
+
+
+## Tecnologías utilizadas
+
+Este proyecto fue creado utilizando las siguientes tecnologías:
+
+- react
+- vite
+- ChartJs
